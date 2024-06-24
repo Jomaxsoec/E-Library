@@ -20,6 +20,7 @@ searchBtn.addEventListener('click', async (e) => {
       searchResults.appendChild(bookListItem);
     });
   }
+  document.getElementById("demo").innerHTML=bookListItem
 });
 
 ReactDOM.render(<BorrowedBooks />, borrowedBooksList);
